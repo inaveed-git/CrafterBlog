@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    height: 100vh;
+}
+
+.ql-size-custom {
+    display: inline-block;
+    position: relative;
+}
+
+.ql-size-custom select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+
+/* index.css or tailwind.config.js */
+.bg-gray-200 {
+    background-color: #e5e7eb;
+    /* Light gray background for progress bar */
+}
+
+.bg-purple-600 {
+    background-color: #6d28d9;
+    /* Purple background for progress bar */
+}
+
+.h-4 {
+    height: 1rem;
+    /* Height of the progress bar */
+}
+
+.rounded-full {
+    border-radius: 9999px;
+    /* Fully rounded corners */
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+    /* Space below progress bar */
+}
+
+
+
+
+.post-content p {
+    margin-bottom: 0.5rem;
+}
+
+.post-content h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.post-content h2 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+}
+
+.post-content a {
+    color: rgb(73, 149, 199);
+    text-decoration: none;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}

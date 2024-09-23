@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+# Logs
+logs/
+*.log
+# Build output
+dist/
+build/
+# Environment variables
+.env
+# OS generated files
+.DS_Store
+Thumbs.db
+# Editor folders
+.vscode/
+.idea/
+# Frontend specific
+client/node_modules/
+client/build/
+client/dist/
+# Backend specific
+node_modules/
+dist/
+build/

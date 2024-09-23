@@ -1,0 +1,23 @@
+.progress-container {
+    width: 100%;
+    background-color: #e2e8f0;
+    /* Gray background */
+    border-radius: 9999px;
+    /* Full rounded corners */
+    height: 4px;
+    /* Height of the progress bar */
+    margin-bottom: 16px;
+    /* Space below the progress bar */
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #7e3af2;
+    /* Purple background */
+    border-radius: 9999px;
+    /* Full rounded corners */
+    width: 0%;
+    /* Initial width of the progress bar */
+    transition: width 0.4s ease;
+    /* Smooth transition for width changes */
+}
