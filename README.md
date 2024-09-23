@@ -21,7 +21,6 @@ CrafterBlog is a web application that allows users to create, manage, and intera
 ![screenshot two](client/public/assets/main1.PNG)
 ![screenshot three](client/public/assets/main3.PNG)
 ![screenshot four](client/public/assets/main4.PNG)
-![alt text](client/public/assets/main3.PNG)
 
 ## Getting Started
 
